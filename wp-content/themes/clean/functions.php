@@ -97,6 +97,7 @@ function clean_scripts() {
 	wp_enqueue_style( 'icomoon-style', get_template_directory_uri() . '/assets/css/icomoon.css');
 	wp_enqueue_style( 'simple-line-icons-style', get_template_directory_uri() . '/assets/css/simple-line-icons.css');
 	wp_enqueue_style( 'index-style', get_template_directory_uri() . '/assets/css/index.css');
+	wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/assets/css/custom.css');
 
 	
 	wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/assets/js/modernizr-2.6.2.min.js'); 

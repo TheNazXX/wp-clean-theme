@@ -1,8 +1,7 @@
 <?php get_header(); ?>
 
+
 <?php 
-
-
 if (have_posts()) {
 	$i = 1;
 	while (have_posts()) :

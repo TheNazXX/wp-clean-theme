@@ -28,6 +28,10 @@
 
 
 	// Animate Projects
+
+	if( $('.js-animate-boxes--single').length > 0){
+		$('.js-animate-boxes--single p').addClass('animate-box')
+	};
 	
 	var animateBox = function() {
 		if ( $('.animate-box').length > 0 ) {
@@ -106,25 +110,12 @@
 			} , { offset: '80%' } );
 		}
 	};
-
-
-
-	
-	
-
-	
-
 	
 	$(function(){
-		
 		burgerMenu();
 		animateBox();
 		teamWayPoint();
 		featureIconsWayPoint();
-		
-		
-
 	});
-
 
 }());
